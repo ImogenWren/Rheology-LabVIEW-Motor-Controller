@@ -3,7 +3,7 @@
  
 ## Description
 
-This software is designed to interface Nanotec PD4-C Stepper Motors, with a user friendly LabVIEW Interface.
+This software is designed to control Nanotec PD4-C Stepper Motors, with a user friendly LabVIEW Graphical User Interface. It allows users to Start & Stop the motor, change the rotation speed and direction and obtain an estimated Torque value for the motor under load.
 
 ## Prerequisits
 
