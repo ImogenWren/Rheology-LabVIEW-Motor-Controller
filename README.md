@@ -74,7 +74,7 @@ To Exist the desktop app, click `Exit Program` This will shut down the motor and
 To show the full engineering display, click the `Engineering Mode` button. Additional controls and indicators will appear. To hide the additional controls, click this button again.
 
 
-To restart the internal NanoJ program in order to use the hardware controller, the Start NanokJ button can be pressed, or the motor can be re-powered. Pressing this button will grey out the motor controls. The `Stop NanoJ` button can be used if NanoJ has been restarted at any point to resume software control.
+To restart the internal NanoJ program in order to use the hardware controller, the `Start NanoJ` button can be pressed, or the motor can be re-powered. Pressing this button will grey out the motor controls. The `Stop NanoJ` button can be used if NanoJ has been restarted at any point to resume software control.
 
 ## Exiting Software
 
