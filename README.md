@@ -25,7 +25,7 @@ The NanoJ software can be updated and programmed into the PD4-C Motor using Nano
 When the motor is first powered on, it will immediatly start running the internal NanoJ program. This allows the motor to be controlled via the supplied hardware controller. This has 3 controls:
 
 - Enable Motor _(On/Off)_
-- Speed
+- Speed _(0-100 RPM)_
 - Direction _(CW/CCW)_
 
 # Warning! - Hardware controller has no automatic stop on power on! Motor will actuate if speed control is not at ZERO position and Enable Motor is switched to ON.
