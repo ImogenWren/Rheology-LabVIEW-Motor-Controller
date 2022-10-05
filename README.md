@@ -28,8 +28,13 @@ When the motor is first powered on, it will immediatly start running the interna
 - Speed _(0-100 RPM)_
 - Direction _(CW/CCW)_
 
-<p align="center"># Warning!</p> <br>
- # Hardware controller has no automatic stop on power on! Motor will actuate if speed control is not at ZERO position and Enable Motor is switched to ON.
+<p align="center">
+ 
+ # Warning!
+
+</p> <br>
+
+# Hardware controller has no automatic stop on power on! Motor will actuate if speed control is not at ZERO position and Enable Motor is switched to ON.
 
 # It is reccomended to **ALWAYS** zero the speed control and switch **Enable Motor to OFF** before powering off the system, and ensure that the controls are in this position before powering up the system.
 
