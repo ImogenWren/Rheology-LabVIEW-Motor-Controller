@@ -70,6 +70,7 @@
 		<Item Name="decode_nanotech_read.vi" Type="VI" URL="../Sub-Vi/decode_nanotech_read.vi"/>
 		<Item Name="Fieldbus_Write_message.vi" Type="VI" URL="../Sub-Vi/Fieldbus_Write_message.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="PD4-C Logo.ico" Type="Document" URL="../documentation/PD4-C Logo.ico"/>
 		<Item Name="raw_torque_to_mA_and_kN.vi" Type="VI" URL="../Sub-Vi/raw_torque_to_mA_and_kN.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -146,6 +147,49 @@
 				<Property Name="TgtF_productName" Type="Str">Main Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{8D31CF1E-BFEE-4FAB-AC90-991853A95B09}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Main.exe</Property>
+			</Item>
+			<Item Name="Rheology Motor Controller V1.0" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A4075295-927F-4719-BB8D-C90AFA1CAC7D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{08A8A227-CE7B-45C2-9D71-E300F9C273E3}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{751DE517-1B36-4CEA-BD39-5CC5795337AB}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">First build - Beta</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Rheology Motor Controller V1.0</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Rheology Motor Controller V1.0</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{562D81EB-12DD-4633-884D-F69F79EE9EC6}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Rheology Motor Controller.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Rheology Motor Controller V1.0/Rheology Motor Controller.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Rheology Motor Controller V1.0/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/PD4-C Logo.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C432856A-4BBE-4129-A38E-D9C699B0B48A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Rheology Motor Controller V1.0</Property>
+				<Property Name="TgtF_internalName" Type="Str">Rheology Motor Controller V1.0</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_productName" Type="Str">Rheology Motor Controller V1.0</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{EEFA5F25-FA62-433A-820A-2A55A25B98D6}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Rheology Motor Controller.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
