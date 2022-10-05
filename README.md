@@ -1,6 +1,9 @@
 # Rheology-LabVIEW-Motor-Controller
  Desktop UI for Rheology experiment Nanotec PD4-C Motor Controller
  
+ ![image](https://user-images.githubusercontent.com/97303986/194104709-ff4f2dba-26d3-4cc1-a354-eafea82d6166.png)
+
+ 
 ## Description
 
 This software is designed to control Nanotec PD4-C Stepper Motors, with a user friendly LabVIEW Graphical User Interface. It allows users to Start & Stop the motor, change the rotation speed and direction and obtain an estimated Torque value for the motor under load.
